@@ -2,7 +2,7 @@
   <div class="row">
 <form class="details-form" #detailsForm="ngForm">
   <div class="details-form__top">
-    Proposal submit form
+    LittleBig Connect Proposal submit form
   </div>
   <mat-form-field class="details-form__form-field" hintLabel="min 3, Max 25 characters." >
     <mat-label class="details-form__form-field__label">Description</mat-label>
@@ -38,10 +38,6 @@
       <mat-radio-button value="PACKAGE">PACKAGE</mat-radio-button>
     </mat-radio-group>
   </div>
-  <mat-form-field class="details-form__form-field">
-    <mat-label class="details-form__form-field__label">Applicant ID</mat-label>
-    <textarea class="details-form__form-field__input" matInput placeholder="please enter applicant id" value="" [(ngModel)]="proposal.preferredSupplierClientId" name="applicantId"></textarea>
-  </mat-form-field>
   <button class="details-form__submit" mat-flat-button color="accent" (click)="onDetailsFormSubmit()">Save proposal</button>
 </form>
 </div>

@@ -3,5 +3,4 @@ export class Proposal {
    description: string;
    workUnitType: string;
    maximumPrice: number;
-  preferredSupplierClientId: string;
 }
